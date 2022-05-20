@@ -1,4 +1,6 @@
 
+配置说明
+```
 port 6379
 daemonize yes
 pidfile /var/run/redis.pid
@@ -20,3 +22,4 @@ appendonly yes
 requirepass 123456
 #设置集群节点间访问密码，跟上面一致
 masterauth 123456
+```
